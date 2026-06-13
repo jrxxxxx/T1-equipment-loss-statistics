@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#475569" />
+      </marker>
+    </defs>
+    
+
+    <style>
+      text { font-family: Arial, "Microsoft YaHei", sans-serif; fill: #111827; }
+      .title { font-size: 22px; font-weight: 700; }
+      .subtitle { font-size: 13px; fill: #4b5563; }
+      .box { fill: #f8fafc; stroke: #334155; stroke-width: 1.4; rx: 7; }
+      .accent { fill: #eff6ff; stroke: #2563eb; stroke-width: 1.5; rx: 7; }
+      .warn { fill: #fff7ed; stroke: #f97316; stroke-width: 1.5; rx: 7; }
+      .arrow { stroke: #475569; stroke-width: 1.7; fill: none; marker-end: url(#arrow); }
+      .axis { stroke: #94a3b8; stroke-width: 1; }
+      .grid { stroke: #e5e7eb; stroke-width: 1; }
+      .russia { fill: #ef4444; stroke: #b91c1c; }
+      .ukraine { fill: #2563eb; stroke: #1d4ed8; }
+      .ci { stroke: #111827; stroke-width: 2.2; }
+      .tick { stroke: #111827; stroke-width: 2; }
+      .note { font-size: 12px; fill: #6b7280; }
+    </style>
+    
+<text class="title" x="450" y="35" text-anchor="middle">双方日均装备损失强度估计</text>
+<text class="subtitle" x="450" y="58" text-anchor="middle">点估计与 Wald / Score / Exact 95% 置信区间</text>
+<line class="grid" x1="115.0" y1="72" x2="115.0" y2="290" />
+<text class="note" x="115.0" y="314" text-anchor="middle">0</text>
+<line class="grid" x1="244.2" y1="72" x2="244.2" y2="290" />
+<text class="note" x="244.2" y="314" text-anchor="middle">3</text>
+<line class="grid" x1="373.4" y1="72" x2="373.4" y2="290" />
+<text class="note" x="373.4" y="314" text-anchor="middle">6</text>
+<line class="grid" x1="502.6" y1="72" x2="502.6" y2="290" />
+<text class="note" x="502.6" y="314" text-anchor="middle">9</text>
+<line class="grid" x1="631.7" y1="72" x2="631.7" y2="290" />
+<text class="note" x="631.7" y="314" text-anchor="middle">12</text>
+<line class="grid" x1="760.9" y1="72" x2="760.9" y2="290" />
+<text class="note" x="760.9" y="314" text-anchor="middle">15</text>
+<line class="axis" x1="115" y1="290" x2="850" y2="290" />
+<text x="95" y="139" font-size="17" font-weight="700" text-anchor="end">Russia</text>
+<text class="note" x="95" y="116" text-anchor="end">Wald</text>
+<line class="ci" x1="754.7" y1="112" x2="771.2" y2="112" />
+<line class="tick" x1="754.7" y1="105" x2="754.7" y2="119" />
+<line class="tick" x1="771.2" y1="105" x2="771.2" y2="119" />
+<text class="note" x="95" y="138" text-anchor="end">Score</text>
+<line class="ci" x1="754.7" y1="134" x2="771.2" y2="134" />
+<line class="tick" x1="754.7" y1="127" x2="754.7" y2="141" />
+<line class="tick" x1="771.2" y1="127" x2="771.2" y2="141" />
+<text class="note" x="95" y="160" text-anchor="end">Exact</text>
+<line class="ci" x1="754.7" y1="156" x2="771.2" y2="156" />
+<line class="tick" x1="754.7" y1="149" x2="754.7" y2="163" />
+<line class="tick" x1="771.2" y1="149" x2="771.2" y2="163" />
+<circle class="russia" cx="762.9" cy="134" r="8" />
+<text x="776.9" y="139" font-size="14">15.05</text>
+<text x="95" y="249" font-size="17" font-weight="700" text-anchor="end">Ukraine</text>
+<text class="note" x="95" y="226" text-anchor="end">Wald</text>
+<line class="ci" x1="423.0" y1="222" x2="434.5" y2="222" />
+<line class="tick" x1="423.0" y1="215" x2="423.0" y2="229" />
+<line class="tick" x1="434.5" y1="215" x2="434.5" y2="229" />
+<text class="note" x="95" y="248" text-anchor="end">Score</text>
+<line class="ci" x1="423.1" y1="244" x2="434.6" y2="244" />
+<line class="tick" x1="423.1" y1="237" x2="423.1" y2="251" />
+<line class="tick" x1="434.6" y1="237" x2="434.6" y2="251" />
+<text class="note" x="95" y="270" text-anchor="end">Exact</text>
+<line class="ci" x1="423.0" y1="266" x2="434.6" y2="266" />
+<line class="tick" x1="423.0" y1="259" x2="423.0" y2="273" />
+<line class="tick" x1="434.6" y1="259" x2="434.6" y2="273" />
+<circle class="ukraine" cx="428.8" cy="244" r="8" />
+<text x="442.8" y="249" font-size="14">7.29</text>
+<text class="note" x="450" y="338" text-anchor="middle">三种区间几乎重合，原因是计数样本量较大。</text>
+</svg>

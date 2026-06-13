@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#475569" />
+      </marker>
+    </defs>
+    
+
+    <style>
+      text { font-family: Arial, "Microsoft YaHei", sans-serif; fill: #111827; }
+      .title { font-size: 22px; font-weight: 700; }
+      .subtitle { font-size: 13px; fill: #4b5563; }
+      .box { fill: #f8fafc; stroke: #334155; stroke-width: 1.4; rx: 7; }
+      .accent { fill: #eff6ff; stroke: #2563eb; stroke-width: 1.5; rx: 7; }
+      .warn { fill: #fff7ed; stroke: #f97316; stroke-width: 1.5; rx: 7; }
+      .arrow { stroke: #475569; stroke-width: 1.7; fill: none; marker-end: url(#arrow); }
+      .axis { stroke: #94a3b8; stroke-width: 1; }
+      .grid { stroke: #e5e7eb; stroke-width: 1; }
+      .russia { fill: #ef4444; stroke: #b91c1c; }
+      .ukraine { fill: #2563eb; stroke: #1d4ed8; }
+      .ci { stroke: #111827; stroke-width: 2.2; }
+      .tick { stroke: #111827; stroke-width: 2; }
+      .note { font-size: 12px; fill: #6b7280; }
+    </style>
+    
+<text class="title" x="490" y="35" text-anchor="middle">数据处理流程</text>
+<text class="subtitle" x="490" y="60" text-anchor="middle">两类数据口径分别服务于时间序列分析与双方公平比较</text>
+<rect class="box" x="70" y="105" width="220" height="78" />
+<text x="180" y="136" font-size="16" font-weight="700" text-anchor="middle">Kaggle / WarSpotting CSV</text>
+<text class="subtitle" x="180" y="160" text-anchor="middle">俄方逐条记录：日期、类型、状态</text>
+<rect class="box" x="70" y="225" width="220" height="78" />
+<text x="180" y="256" font-size="16" font-weight="700" text-anchor="middle">Oryx 双方页面</text>
+<text class="subtitle" x="180" y="280" text-anchor="middle">俄乌双方汇总与装备类型分层</text>
+<rect class="box" x="390" y="105" width="220" height="78" />
+<text x="500" y="136" font-size="16" font-weight="700" text-anchor="middle">清洗与聚合</text>
+<text class="subtitle" x="500" y="160" text-anchor="middle">生成每日/每周损失序列</text>
+<rect class="box" x="390" y="225" width="220" height="78" />
+<text x="500" y="256" font-size="16" font-weight="700" text-anchor="middle">HTML 解析</text>
+<text class="subtitle" x="500" y="280" text-anchor="middle">总量、状态、装备类型汇总</text>
+<rect class="box" x="700" y="105" width="220" height="78" />
+<text x="810" y="136" font-size="16" font-weight="700" text-anchor="middle">时间趋势图</text>
+<text class="subtitle" x="810" y="160" text-anchor="middle">俄方逐日/每周分析</text>
+<rect class="box" x="700" y="225" width="220" height="78" />
+<text x="810" y="256" font-size="16" font-weight="700" text-anchor="middle">统计推断</text>
+<text class="subtitle" x="810" y="280" text-anchor="middle">MLE、区间、检验、Bootstrap</text>
+<path class="arrow" d="M 290 144 L 382 144" />
+<path class="arrow" d="M 610 144 L 692 144" />
+<path class="arrow" d="M 290 264 L 382 264" />
+<path class="arrow" d="M 610 264 L 692 264" />
+<text class="note" x="490" y="328" text-anchor="middle">主比较使用 Oryx 同来源汇总；逐日 Bootstrap 使用推断日期，需在论文中说明局限。</text>
+</svg>

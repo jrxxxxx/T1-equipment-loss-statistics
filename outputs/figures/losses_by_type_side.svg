@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="502" viewBox="0 0 900 502">
+<style>text{font-family:Arial, sans-serif;font-size:13px}.title{font-size:20px;font-weight:bold}.bar{fill:#3b82f6}.label{fill:#111827}.value{fill:#374151}</style>
+<text class="title" x="220" y="28" text-anchor="middle">Verified Losses by Equipment Type</text>
+<text class="label" x="210" y="66" text-anchor="end">Infantry fighting vehicles</text>
+<rect class="bar" x="220" y="50" width="550" height="22" />
+<text class="value" x="778" y="66">8748</text>
+<text class="label" x="210" y="102" text-anchor="end">Transport</text>
+<rect class="bar" x="220" y="86" width="276" height="22" />
+<text class="value" x="504" y="102">4405</text>
+<text class="label" x="210" y="138" text-anchor="end">Tanks</text>
+<rect class="bar" x="220" y="122" width="253" height="22" />
+<text class="value" x="481" y="138">4028</text>
+<text class="label" x="210" y="174" text-anchor="end">Self-propelled artillery</text>
+<rect class="bar" x="220" y="158" width="62" height="22" />
+<text class="value" x="290" y="174">994</text>
+<text class="label" x="210" y="210" text-anchor="end">Drones</text>
+<rect class="bar" x="220" y="194" width="51" height="22" />
+<text class="value" x="279" y="210">815</text>
+<text class="label" x="210" y="246" text-anchor="end">Engineering</text>
+<rect class="bar" x="220" y="230" width="41" height="22" />
+<text class="value" x="269" y="246">658</text>
+<text class="label" x="210" y="282" text-anchor="end">Infantry mobility vehicles</text>
+<rect class="bar" x="220" y="266" width="36" height="22" />
+<text class="value" x="264" y="282">580</text>
+<text class="label" x="210" y="318" text-anchor="end">Rocket and missile artillery</text>
+<rect class="bar" x="220" y="302" width="36" height="22" />
+<text class="value" x="264" y="318">578</text>
+<text class="label" x="210" y="354" text-anchor="end">Anti-aircraft systems</text>
+<rect class="bar" x="220" y="338" width="35" height="22" />
+<text class="value" x="263" y="354">561</text>
+<text class="label" x="210" y="390" text-anchor="end">Towed artillery</text>
+<rect class="bar" x="220" y="374" width="29" height="22" />
+<text class="value" x="257" y="390">477</text>
+<text class="label" x="210" y="426" text-anchor="end">Command posts, communication</text>
+<rect class="bar" x="220" y="410" width="24" height="22" />
+<text class="value" x="252" y="426">393</text>
+<text class="label" x="210" y="462" text-anchor="end">Radars, jammers</text>
+<rect class="bar" x="220" y="446" width="12" height="22" />
+<text class="value" x="240" y="462">199</text>
+</svg>

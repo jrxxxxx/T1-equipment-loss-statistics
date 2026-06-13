@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="260" viewBox="0 0 780 260">
+<style>text{font-family:Arial, sans-serif;font-size:13px}.title{font-size:20px;font-weight:bold}.bar-r{fill:#ef4444}.bar-u{fill:#2563eb}</style>
+<text class="title" x="390.0" y="30" text-anchor="middle">Oryx Verified Equipment Losses</text>
+<text x="150" y="80" text-anchor="end">Russia</text>
+<rect class="bar-r" x="160" y="60" width="480" height="28" />
+<text x="650" y="80">23593</text>
+<text x="150" y="150" text-anchor="end">Ukraine</text>
+<rect class="bar-u" x="160" y="130" width="232" height="28" />
+<text x="402" y="150">11425</text>
+</svg>

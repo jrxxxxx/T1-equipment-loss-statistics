@@ -1,0 +1,2 @@
+﻿statistic,estimate,block_length_days,bootstrap_replicates,percentile_low_95,percentile_high_95,bca_low_95,bca_high_95,note
+rate_ratio_russia_vs_ukraine,2.0650328227571118,7,10000,1.8042630257838286,2.3767973027458202,1.8207448487484441,2.4038625318848728,Exploratory: Russia daily data from Kaggle/WarSpotting; Ukraine daily data inferred from Oryx image filenames and scaled to Oryx totals.

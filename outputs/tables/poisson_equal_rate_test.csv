@@ -1,0 +1,2 @@
+﻿russia_count,ukraine_count,total_count,status,reason
+23023,0,23023,skipped,Conditional two-side Poisson test requires observations from both sides.

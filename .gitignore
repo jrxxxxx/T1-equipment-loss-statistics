@@ -1,0 +1,42 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.python_deps/
+.venv/
+venv/
+
+# Local raw/source files that are large or not needed for code review
+data/raw/
+archive/
+archive.zip
+*.pdf
+package.json
+
+# Local deliverables and workflow artifacts
+paper/
+slides/
+outputs/manual-template-audit/
+outputs/图表清单.md
+outputs/figures/formula_*.png
+*.docx
+*.pptx
+
+# Local document-generation workflow scripts
+src/11_build_paper_docx.py
+src/12_build_ppt_plan_docx.py
+src/13_build_ppt_manuscript_docx.py
+src/14_build_ppt_manuscript_docx_natural.py
+src/15_audit_template_ppt.py
+src/16_make_ppt_assets.py
+src/17_build_template_ppt.ps1
+src/18_build_ppt_manuscript_compact_docx.py
+src/19_build_ppt_copy_text_docx.py
+
+# Generated preview images from local Office export
+slides/*预览*/
+slides/*preview*/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+~$*

@@ -1,0 +1,2 @@
+﻿russia_count,ukraine_count,rate_ratio_russia_vs_ukraine,conditional_normal_approx_p_value,conditional_exact_log10_p_value,conditional_exact_p_value_text,reject_5_percent
+23593,11425,2.0650328227571118,0.0,-939.3085017291984,p < 1e-939,True

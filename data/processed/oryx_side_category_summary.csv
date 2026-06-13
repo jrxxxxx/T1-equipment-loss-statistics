@@ -1,0 +1,33 @@
+﻿side,category,total,destroyed,damaged,abandoned,captured
+Russia,Total,23593,18585,982,1199,2827
+Russia,Tanks,4397,3300,164,395,538
+Russia,Armoured Fighting Vehicles,2414,1976,38,123,277
+Russia,Infantry Fighting Vehicles,6437,5165,159,481,632
+Russia,Armoured Personnel Carriers,733,575,18,44,96
+Russia,Mine-Resistant Ambush Protected (MRAP) Vehicles,63,47,4,1,11
+Russia,Infantry Mobility Vehicles,429,348,18,12,51
+Russia,Command Posts And Communications Stations,320,224,5,4,87
+Russia,Engineering Vehicles And Equipment,724,455,50,62,157
+Russia,Self-Propelled Anti-Tank Missile Systems,47,22,1,4,20
+Russia,Artillery and Missile Support Vehicles And Equipment,179,115,3,1,60
+Russia,Towed Artillery,559,349,106,5,99
+Russia,Self-Propelled Artillery,1020,851,54,7,108
+Russia,Rocket and Missile Artillery,601,497,48,2,54
+Russia,Self-Propelled Anti-Aircraft Guns,28,17,2,2,7
+Russia,Surface-To-Air Missile Systems,422,319,75,4,24
+Russia,Trucks and similar vehicles,4504,3782,108,52,562
+Ukraine,Total,11425,8888,680,670,1187
+Ukraine,Tanks,1426,1091,85,99,151
+Ukraine,Armoured Fighting Vehicles,537,419,17,15,86
+Ukraine,Infantry Fighting Vehicles,1586,1202,71,145,168
+Ukraine,Armoured Personnel Carriers,1389,1033,42,150,164
+Ukraine,Mine-Resistant Ambush Protected (MRAP) Vehicles,946,756,45,78,67
+Ukraine,Infantry Mobility Vehicles,1845,1490,67,115,173
+Ukraine,Engineering Vehicles And Equipment,290,198,25,31,36
+Ukraine,Self-Propelled Anti-Tank Missile Systems,19,7,1,1,10
+Ukraine,Towed Artillery,279,159,95,3,22
+Ukraine,Self-Propelled Artillery,870,736,107,1,26
+Ukraine,Self-Propelled Anti-Aircraft Guns,50,40,5,1,4
+Ukraine,Surface-To-Air Missile Systems,178,151,20,1,6
+Ukraine,Radars And Communications Equipment,145,108,22,1,14
+Ukraine,Trucks and similar vehicles,1355,1104,39,17,195
